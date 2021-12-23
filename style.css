@@ -1,0 +1,62 @@
+*{
+    font-family: verdana, arial, helvetica;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #51befd;
+}
+
+.quem-somos{
+    background-color: #51fd9e;
+    height: 87vh;
+    background-image: url(./assets/time.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.quem-somos .row{
+    height: 100%;
+}
+.quem-somos .descricao{
+
+    height: 70%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.margin{
+    padding: 30px 0;
+}
+.img-size{
+    font-size:62.5%;
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+}
+
+.img-size:nth-child(2){
+    margin:0 3rem;
+}
+
+.img-parceiros, .img-servicos{
+    max-width:25rem;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    max-height: 15rem;
+    object-fit: cover;
+}   
+
+.subtitle{
+    text-transform: uppercase;
+}
+
+.bg-footer{
+    
+    height: 4rem;
+    background-color: #bebebe;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
